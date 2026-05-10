@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background: linear-gradient(to right, #0077ff, #00c6ff);
+    color: white;
+    padding: 20px;
+}
+
+/* ID selector */
+
+#main-title {
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+
+nav a {
+    text-decoration: none;
+    color: yellow;
+    margin-right: 15px;
+}
+
+/* Pseudo-class */
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Class selector */
+
+.active {
+    color: red;
+    font-weight: bold;
+}
+
+/* Descendant selector */
+
+.skills table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.skills th,
+.skills td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Header row */
+
+.skills th {
+    background-color: #333;
+    color: white;
+}
+
+/* Zebra striping */
+
+.skills tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/* Hover row */
+
+.skills tr:hover {
+    background-color: lightblue;
+}
+
+/* Footer */
+
+footer {
+    background-color: #222;
+    color: #cccccc;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
