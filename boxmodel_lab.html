@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model Lab</title>
+
+    <link rel="stylesheet" href="boxmodel.css">
+</head>
+
+<body>
+
+    <h1>PHẦN 1 - Content Box vs Border Box</h1>
+
+    <div class="wrapper">
+
+        <div class="box content-box">
+            <h2>Content Box</h2>
+            <p>width: 300px</p>
+            <p>padding: 20px</p>
+            <p>border: 5px</p>
+        </div>
+
+        <div class="box border-box">
+            <h2>Border Box</h2>
+            <p>width: 300px</p>
+            <p>padding: 20px</p>
+            <p>border: 5px</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <h1>PHẦN 2 - Layout lỗi (không dùng border-box)</h1>
+
+    <div class="layout layout-error">
+
+        <div class="sidebar">
+            Sidebar
+        </div>
+
+        <div class="content">
+            Content
+        </div>
+
+        <div class="ads">
+            Ads
+        </div>
+
+    </div>
+
+    <hr>
+
+    <h1>PHẦN 2 - Layout đúng (dùng border-box)</h1>
+
+    <div class="layout layout-fixed">
+
+        <div class="sidebar">
+            Sidebar
+        </div>
+
+        <div class="content">
+            Content
+        </div>
+
+        <div class="ads">
+            Ads
+        </div>
+
+    </div>
+
+</body>
+
+</html>
